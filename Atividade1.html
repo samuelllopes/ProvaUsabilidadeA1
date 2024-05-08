@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triagem - Pronto Socorro</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="text-center my-4">Triagem - Pronto Socorro</h1>
+      <form>
+        <div class="mb-4">
+          <label for="nome" class="form-label">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="mb-4">
+          <label for="idade" class="form-label">Idade:</label>
+          <input type="number" class="form-control" id="idade" placeholder="Digite sua idade">
+        </div>
+        <div class="mb-4">
+          <label for="temperatura" class="form-label">Temperatura:</label>
+          <input type="number" step="0.1" class="form-control" id="temperatura" placeholder="Digite sua temperatura">
+        </div>
+        <div class="mb-4">
+          <label for="pressao" class="form-label">Pressão:</label>
+          <input type="text" class="form-control" id="pressao" placeholder="Digite sua pressão">
+        </div>
+        <div class="mb-4">
+          <label for="sintomas" class="form-label">Sintomas:</label>
+          <textarea class="form-control" id="sintomas" rows="3" placeholder="Descreva seus sintomas"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
